@@ -1,5 +1,5 @@
 const Header = () => {
-  return (
+   return (
     <header>
       <h1>Gros list</h1>
     </header>
