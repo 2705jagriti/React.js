@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 const Content = () => {
-  const [name , setName];
+ // const [name , setName];
   const handlenames = () => {
     const names = ["Eren", " Mikasa", "kenny"];
     const int = Math.floor(Math.random() * 3);
