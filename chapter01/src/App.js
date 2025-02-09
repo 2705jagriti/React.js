@@ -1,24 +1,17 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Header from "./Header";
+import Footer from "./Footer";
+import Content from "./Content";
 
 function App() {
-  const handleName = () =>{
-    const names = ['dave' , 'jagriti', 'joy'];
-    const int = Math.floor(Math.random() * 3);
-    return names[int];
-
-  }
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      <p>
-         Hello {handleName()} ! </p>  
-      
-      </header>
-    
+      <Header />
+      <Content/>
+      <Footer />
     </div>
-  ); 
+  );
 }
 
 export default App;
